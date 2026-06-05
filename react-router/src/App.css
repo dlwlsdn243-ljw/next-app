@@ -38,6 +38,16 @@
   padding: 10px 0;
 }
 
+.comp1{
+  background-color: rgb(158, 60, 158);
+}
+.comp2{
+  background-color: rgb(111, 70, 70);
+}
+.comp3{
+  background-color: rgb(68, 162, 68);
+}
+
 .footer{
   background-color: rgb(195, 139, 139);
   height: 50px;

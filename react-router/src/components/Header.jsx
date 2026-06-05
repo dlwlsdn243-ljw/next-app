@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 function Header (){
     return(
         <div className="header">
             <h2>Header.jsx Area</h2>
             <ul>
-                <li>Home</li>
-                <li>Comp1</li>
-                <li>Comp2</li>
-                <li>Comp3</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/comp1">Comp1</Link></li>
+                <li><Link to="/comp2">Comp2</Link></li>
+                <li><Link to="/comp3">Comp3</Link></li>
             </ul>
         </div>
     )
