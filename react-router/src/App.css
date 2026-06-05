@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.header{
+  background-color: aquamarine;
+  height: 100px;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.header>ul{
+  list-style: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.header>ul>li{
+  margin: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.home, .comp{
+  background-color: beige;
+  height: 500px;
+  padding: 20px 0;
+}
+
+.home>h2, .comp>h2{
+  padding: 10px 0;
+}
+
+.footer{
+  background-color: rgb(195, 139, 139);
+  height: 50px;
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+
+.footer>div{
+  color: white;
+}
