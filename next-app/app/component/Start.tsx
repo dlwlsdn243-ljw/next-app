@@ -1,0 +1,18 @@
+export default function Start(){
+
+    // 내부 변수 사용 가능
+    const name = '홍길동'
+
+    // 스타일 객체 선언
+    const style = {
+        
+        color : 'white',
+        backgroundColor : 'black'
+    }
+
+    return(
+        <div>
+            <h2 style = {style}> Start.tsx area {name} Hello~!!!</h2>
+        </div>
+    )
+}
