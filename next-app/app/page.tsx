@@ -1,10 +1,13 @@
 "use client" // 상위폴더에서 관리
-import Image from "next/image";
 import Hello from "./component/Hello";
 import Start from "./component/Start";
 import Counter from "./component/Counter";
 import Counter2 from "./component/Counter2";
 import HelloProps from "./component/HelloProps";
+import InputSample from "./component/inputSample";
+import InputSample2 from "./component/inputSample2";
+import UserList from "./component/user/userList";
+import UserList2 from "./component/user/userList2";
 
 export default function Home() {
   return (
@@ -20,6 +23,18 @@ export default function Home() {
         <Counter />
         <Counter2 num={100} />
         <HelloProps name={"홍길동"} age = {20} />
+
+        <hr />
+        <InputSample />
+
+        <hr />
+        <InputSample2 />
+
+        <hr />
+        <UserList />
+
+        <hr />
+        <UserList2 />
     </div>
   );
 }
